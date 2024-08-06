@@ -37,7 +37,7 @@ class MyDBSCAN:
     def __init__(self, eps, min_pts):
         self.eps = eps
         self.min_pts = min_pts
-        np.array([
+        self.data=np.array([
             [0.1, 1.0],
             [0.2, 0.9],
             [0.3, 1.0],
